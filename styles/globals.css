@@ -1,16 +1,35 @@
-html,
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* modules */
+@import "~simplebar/dist/simplebar.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0;
+    overflow: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.townland {
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-* {
-  box-sizing: border-box;
+.simplebar-track.simplebar-vertical {
+    width: 14px !important;
+    left: 2px;
+}
+
+.simplebar-scrollbar:before {
+    border: 2px solid #111827 !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: -2px 2px #111827;
+    backdrop-filter: blur(10px);
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+    opacity: 0.8 !important;
 }
