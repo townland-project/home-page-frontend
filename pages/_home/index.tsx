@@ -15,9 +15,10 @@ const Home = () => {
             <Head>
                 <title>Townland | Your 2D RP World</title>
             </Head>
-            <div className="md:pb-20 tl-bg-peanut-dark">
+            <div className="tl-bg-peanut-dark relative overflow-hidden">
                 <Header />
                 <Intro />
+                <div className="absolute -bottom-[6vw] right-0 w-[50vw] h-[50vw] bg-selfers bg-no-repeat bg-center bg-contain"></div>
             </div>
             <Sales />
             <History />

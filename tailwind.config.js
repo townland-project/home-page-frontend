@@ -10,6 +10,8 @@ module.exports = {
       },
       backgroundImage: {
         'app-logo': "url('../public/assets/logo.png')",
+        'selfers': "url('../public/assets/selfers.png')",
+        'selfers-colored': "url('../public/assets/salfers-colored.png')",
         'roadmap-wave': "url('../public/assets/roadmap-wave.svg')",
         'geek': "url('../public/assets/images/geek.png')",
         'lady': "url('../public/assets/images/lady.png')",

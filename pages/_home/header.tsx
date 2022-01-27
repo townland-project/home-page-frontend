@@ -3,7 +3,7 @@ import { HeaderLinks, HeaderTopLinks } from '../../database/header'
 
 export const Header = () => {
     return (
-        <header className="px-4 md:px-12 w-full flex flex-col">
+        <header className="z-10 px-4 md:px-12 w-full flex flex-col">
             <div className="pt-6 flex flex-nowrap items-center justify-center md:justify-end">
                 {
                     HeaderTopLinks.map((link, index) =>
