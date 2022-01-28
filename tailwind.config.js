@@ -26,6 +26,6 @@ module.exports = {
     require('postcss-import'),
     require('tailwindcss'),
     require('autoprefixer'),
-    require('@townland-project/tw-components')
+    require('@townland-project/tailwind-theme')
   ],
 }

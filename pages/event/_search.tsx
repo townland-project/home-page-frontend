@@ -9,9 +9,9 @@ export const Search = () => {
                     <option value="">Date</option>
                 </select>
             </div>
-            <button className="tl-button flex items-center justify-center ml-6 bg-green-300 text-black/80 border-gray-900 shadow-[0_2px_#111827]">
+            <button className="tl-outlined-button md:w-[105px] ml-6 bg-green-300">
                 <span className="hidden md:block">Search</span>
-                <i className="material-icons md:hidden">search</i>
+                <i className="material-icons -ml-[8px] md:hidden">search</i>
             </button>
         </section>
     )

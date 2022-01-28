@@ -13,7 +13,7 @@ export const Start = () => {
                 You are in a world where you can be anyone and you want to be because the world is in your hands
             </p>
 
-            <a className="mt-20 w-fit tl-button py-[10px] bg-green-400 text-gray-900 flex items-center justify-center" href="https://play.townland.xyz">
+            <a className="mt-20 tl-outlined-button bg-green-400 text-gray-900 flex items-center justify-center" href="https://play.townland.xyz">
                 <span className="font-bold">Enter the world</span>
 
                 <i className="material-icons ml-6">chevron_right</i>

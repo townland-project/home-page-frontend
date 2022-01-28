@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 import { Lines } from "./lines"
@@ -38,7 +39,7 @@ export const Events = () => {
             <Link
                 href='/event'
             >
-                <a className="mt-8 w-fit tl-button bg-violet-500 text-white border-2 border-solid border-violet-600 flex items-center justify-center" href="/event">
+                <a className="mt-8 tl-outlined-button bg-violet-500" href="/event">
                     <span className="font-bold">More Events</span>
                 </a>
             </Link>

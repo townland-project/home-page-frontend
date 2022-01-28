@@ -48,7 +48,7 @@ const BlogCategory: NextPage<Props> = (props: Props) => {
         <h2 className="text-5xl text-slate-700 mb-2">Latest Blog Posts</h2>
         <p className="text-xl text-slate-600">Stay up to date with posts written by Gods for <span className='underline'>{props.ActiveTab!}</span> posts</p>
       </SimpleHeader>
-      <div className="tl-tab-container flex flex-col relative -top-32 px-[5vw]">
+      <div className="tl-tab-container tl-tabs-top flex flex-col relative -top-32 px-[5vw]">
         <Tabs Active={props.ActiveTab!} Items={props.TabItems || ['']} />
 
         <div className="tl-tab-content bg-white py-2">

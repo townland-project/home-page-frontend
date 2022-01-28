@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const Tabs = (props: Props) => {
     return (
-        <section className="tl-tabs tl-tabs-top">
+        <section className="tl-tabs">
             {
                 props.Items.map((item, index) =>
                     <Link key={index}

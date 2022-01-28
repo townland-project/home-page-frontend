@@ -39,8 +39,10 @@ export const Footer = () => {
                 <div className="flex flex-col w-full md:w-3/12 min-h-[250px]">
                     <strong className="text-gray-900 text-xl mb-4">Subscribe to our newsletter</strong>
                     <div className="flex flex-nowrap items-center">
-                        <input type="email" placeholder="E.g. mail@townland.xyz" className="text-sm w-full px-[8px] h-[36px] mr-3 rounded-lg border-2 border-solid border-gray-300" />
-                        <button className="whitespace-pre text-sm w-fit h-[34px] px-4 rounded-md bg-yellow-500 text-white drop-shadow-[0_4px_#ca8a04]">
+                        <div className="tl-input-container mr-3">
+                            <input type="email" placeholder="E.g. mail@townland.xyz" className="text-sm" />
+                        </div>
+                        <button className="whitespace-pre text-sm tl-flat-button bg-yellow-500 text-white">
                             More Events
                         </button>
                     </div>

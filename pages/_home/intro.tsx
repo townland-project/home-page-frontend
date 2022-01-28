@@ -10,7 +10,7 @@ export const Intro = () => {
                     A two-dimensional world where people play a role and collect items in a blockchain.
                 </p>
 
-                <a className="mt-20 w-fit py-[12px] tl-button border-gray-600 bg-green-500 text-gray-900 flex items-center justify-center" href="https://play.townland.xyz">
+                <a className="mt-20 w-fit tl-outlined-button border-gray-600 bg-green-500 text-gray-900 flex items-center justify-center" href="https://play.townland.xyz">
                     <span className="font-bold">Enter the world</span>
 
                     <i className="material-icons ml-6">chevron_right</i>

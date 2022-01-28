@@ -33,7 +33,7 @@ export const SimpleHeader = (props: Props) => {
 
                     <div className="w-[1px] h-8 bg-[#303952] mr-8"></div>
 
-                    <a className="tl-button bg-blue-500 text-gray-900" href="https://play.townland.xyz">
+                    <a className="tl-outlined-button bg-blue-500 text-gray-900" href="https://play.townland.xyz">
                         Enter the world
                     </a>
                 </div>
